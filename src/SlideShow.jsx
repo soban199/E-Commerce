@@ -21,7 +21,7 @@ const Slideshow = () => {
   }, [images.length]);
 
   return (
-    <section className="relative w-screen h-96 overflow-hidden bg-gray-100">
+    <section className="relative w-screen h-96 overflow-hidden">
     {images.map((image, index) => (
       <div
         key={index}
@@ -32,7 +32,7 @@ const Slideshow = () => {
         <img
           src={image}
           alt={`Slide ${index + 1}`}
-          className="w-full h-full object-cover"
+          className="w-full h-full"
         />
       </div>
     ))}

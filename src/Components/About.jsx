@@ -15,7 +15,7 @@ const AboutUs = () => {
     </div>    
 
       {/* Introduction Section */}
-      <section className="py-16 px-4 sm:px-12 lg:px-24 bg-primary">
+      <section className="py-16 px-4 sm:px-12 lg:px-24">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-primary-dark mb-6">Who We Are</h2>
           <p className="text-lg text-primary-dark leading-relaxed">

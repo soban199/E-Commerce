@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ReturnAndExchange = () => {
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-gray-50 text-gray-800 rounded-lg shadow-md">
+    <div className="max-w-4xl mx-auto p-6  text-primary-dark">
       <h1 className="text-2xl font-bold text-center mb-6">Return and Exchange</h1>
 
       <div className="space-y-4">
@@ -36,7 +36,7 @@ const ReturnAndExchange = () => {
             info@focusclothing.pk
           </Link>{" "}
           or call us at{" "}
-          <Link to="tel:04232084053" className="text-blue-500 underline">
+          <Link to="tel:04232084053" className="text-secondary-light underline">
             042 32084053
           </Link>{" "}
           during working hours.

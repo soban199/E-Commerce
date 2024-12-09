@@ -34,13 +34,13 @@ const Products = forwardRef((props, ref) => {
         {filteredProducts.slice(0, visible).map((product) => (
           <div
             key={product.id}
-            className="border p-4 rounded-lg shadow-md bg-other hover:shadow-lg transition duration-300"
+            className="border p-4 shadow-md bg-other hover:shadow-lg transition duration-300"
           >
             <Link to={`/product/${product.id}`}>
               <img
                 src={product.image}
                 alt={product.title}
-                className="w-full h-80 object-cover rounded-md transition-transform duration-300 ease-in-out transform hover:scale-110"
+                className="w-full h-80 object-cover transition-transform duration-300 ease-in-out transform hover:scale-110"
               />
               <br />
             </Link>

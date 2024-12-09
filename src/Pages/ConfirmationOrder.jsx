@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const OrderConfirmation = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
-      <div className="bg-white rounded-lg shadow-lg p-6 max-w-md text-center">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-primary-light p-4">
+      <div className="bg-primary p-6 max-w-md text-center">
         {/* Icon */}
         <div className="text-green-500">
           <svg
@@ -23,11 +23,11 @@ const OrderConfirmation = () => {
           </svg>
         </div>
         {/* Heading */}
-        <h2 className="text-2xl font-bold text-gray-800 mb-2">
+        <h2 className="text-2xl font-bold text-secondary-light mb-2">
           Thank You for Your Order!
         </h2>
         {/* Message */}
-        <p className="text-gray-600 mb-6">
+        <p className="text-secondary-light mb-6">
           Your order has been placed successfully. We are processing your order
           and will notify you when it’s on the way.
         </p>
@@ -35,13 +35,13 @@ const OrderConfirmation = () => {
         <div className="flex justify-center space-x-4">
           <Link
             to="/"
-            className="bg-primary-dark text-other py-2 px-4 rounded hover:bg-primary transition duration-300"
+            className="bg-primary-dark text-primary py-2 px-4  hover:bg-primary hover:text-primary-dark border-2 transition duration-300"
           >
             Continue Shopping
           </Link>
           <Link
             to="/checkout"
-            className="bg-secondary-dark text-other py-2 px-4 rounded hover:bg-secondary transition duration-300"
+            className="bg-secondary-light text-primary py-2 px-4 hover:bg-primary hover:text-primary-dark border-2 transition duration-300"
           >
             View My Orders
           </Link>

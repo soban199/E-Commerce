@@ -85,19 +85,19 @@ const CategoryButtons = () => {
               <img
                 src={filteredProducts[0].image}
                 alt={filteredProducts[0].title}
-                className="w-40 h-52 object-cover rounded-lg"
+                className="w-40 h-52 object-cover "
               />
             ) : (
-              <p className="text-sm text-gray-500">No image available</p>
+              <p className="text-sm text-primary-dark">No image available</p>
             )}
             {filteredProducts[1] ? (
               <img
                 src={filteredProducts[1].image}
                 alt={filteredProducts[1].title}
-                className="w-40 h-52 object-cover rounded-lg"
+                className="w-40 h-52 object-cover"
               />
             ) : (
-              <p className="text-sm text-gray-500">No image available</p>
+              <p className="text-sm text-primary-dark">No image available</p>
             )}
           </div>
         </div>
