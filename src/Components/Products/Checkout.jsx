@@ -152,7 +152,7 @@ const Checkout = () => {
             <button
               title="Place Order"
               type="submit"
-              className="w-full py-2 bg-primary text-white font-semibold rounded"
+              className="w-full py-2 bg-primary-dark text-primary font-semibold"
             >
               Place Order
             </button>

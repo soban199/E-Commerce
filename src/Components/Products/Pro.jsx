@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect, forwardRef } from "react";
+import React, { useContext, useState, forwardRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ProductContext } from "../ProductProvider";
 import { SearchContext } from "../Search/SearchProvider";

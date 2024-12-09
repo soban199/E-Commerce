@@ -1,6 +1,5 @@
 
-import React, { useEffect } from 'react';
-import {  Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Detail from './Pages/Detail';
 import Dashboard from './Pages/Dashboard';
 import Header from './Components/Header';
@@ -23,12 +22,6 @@ import Sustainability from './Sustainability/Sustainability';
 
 
 function App() {
-  useEffect(() => {
-    // Scroll to the top for both document.body and document.documentElement
-    window.scrollTo(0, 0);
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For other browsers
-  }, []);
   return (
     <>
     <ScrollToTop/>
@@ -52,7 +45,7 @@ function App() {
           <Route path='/about' element={<AboutUs/>}/>
           <Route path='store' element={<Store/>}/>
           <Route path='sustainability' element={<Sustainability/>}/>
-          
+        
         </Routes>
         <div className='mb-0 mt-12'>
           <Footer/>

@@ -25,10 +25,10 @@ const CategoryButtons = () => {
     setHoveredCategory(null);
   };
 
-  const handleProductClick = (productId) => {
-    dispatch({ type: "FILTER_PRODUCT", payload: productId });
-    setHoveredCategory(null);
-  };
+  // const handleProductClick = (productId) => {
+  //   dispatch({ type: "FILTER_PRODUCT", payload: productId });
+  //   setHoveredCategory(null);
+  // };
 
   const filteredProducts = hoveredCategory
     ? products.filter(
@@ -68,7 +68,7 @@ const CategoryButtons = () => {
               filteredProducts.slice(0, 10).map((product) => (
                 <button
                   key={product.id}
-                  onClick={() => handleProductClick(product.id)}
+                  // onClick={() => handleProductClick(product.id)}
                   className="text-sm text-primary-dark truncate mr-8"
                 >
                   {product.title}
