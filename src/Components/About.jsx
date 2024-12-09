@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import AboutButton from "./Search/AboutButton/AboutButton";
-import { Outlet } from "react-router-dom";
+
 
 const AboutUs = () => {
   return (
@@ -9,7 +9,7 @@ const AboutUs = () => {
       
       <AboutButton/>
       
-      <Outlet/>
+
     <div>
     <Section/>
     </div>    

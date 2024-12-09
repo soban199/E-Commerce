@@ -12,12 +12,12 @@ export default function AboutButton() {
           About Us
         </NavLink>
         <NavLink
-          to="/about/store"
+          to="/store"
           >
           Stores
         </NavLink>
         <NavLink
-          to="/about/sustainability"
+          to="/sustainability"
           >
           Sustainability
         </NavLink>

@@ -48,11 +48,11 @@ function App() {
           <Route path='/return' element={<ReturnAndExchange/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/order' element={<OrderConfirmation/>}/>
-          {/* Nested */}
-          <Route path='/about' element={<AboutUs/>}>
+          
+          <Route path='/about' element={<AboutUs/>}/>
           <Route path='store' element={<Store/>}/>
           <Route path='sustainability' element={<Sustainability/>}/>
-          </Route>
+          
         </Routes>
         <div className='mb-0 mt-12'>
           <Footer/>
